@@ -1,5 +1,5 @@
 let string="Quý,Nam,Lan,Hùng,Nam"
-let students=string.split(", ");
+let students=string.split(",");
 let revStudents=students.reverse();
 /* phương thức này làm thay đổi mảng gốc */
     if(students.includes("Lan")){
@@ -10,4 +10,5 @@ let revStudents=students.reverse();
     let nameStudent="Nam"
     let index=students.indexOf(nameStudent);
     console.log(`Tên Nam ở vị trí ${index}`);
+
 
