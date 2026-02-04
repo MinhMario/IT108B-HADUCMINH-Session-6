@@ -6,10 +6,11 @@ for(let element of balance){
 for(let index in balance){
     console.log(index)
 }
-for(let i=0;i<balance;i++){
+for(let i=0;i<balance.length;i++){
     if(i%2==0){
         total+=balance[i];
     }
 }
 console.log(`${total}`);
+
 
